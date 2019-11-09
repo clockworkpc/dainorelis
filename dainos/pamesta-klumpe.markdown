@@ -1,6 +1,7 @@
 ---
 layout: songs
 title: Pamesta Klumpė
+group: Pamesta Klumpė
 tags: song_collection
 ---
 

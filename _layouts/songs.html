@@ -16,13 +16,20 @@
 
           <table>
             <tr>
-              <th>Muzikos grupė</th>
               <th>Daina</th>
+              <th>Muzikos grupė</th>
             </tr>
 
             {% for song in my_songs %}
               {% tablerow detail in song.details: 2 %}
-                <p><a href={{song.url}}>{{ detail[1] }}</a></p>
+                {% assign group_page = site.pages | where: "title", "Pamesta Klumpė" | first %}
+                {% assign group_page_link = group_page.url %}
+
+                {% if detail[0] == "title" %}
+                  <p><a href={{song.url}}>{{ detail[1] }}</a></p>
+                {% else %}
+                  <p><a href={{ group_page_link }}>{{ detail[1] }}</a></p>
+                {% endif %}
               {% endtablerow %}
             {% endfor %}
 
