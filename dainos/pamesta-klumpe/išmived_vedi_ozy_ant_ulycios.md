@@ -1,5 +1,5 @@
 ---
-layout: song
+layout: default
 details:
   title: "Ǐšmived vedi ožy ant ulyčios"
   group: "Pamesta Klumpė"
