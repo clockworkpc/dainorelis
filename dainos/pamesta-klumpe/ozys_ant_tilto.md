@@ -1,5 +1,5 @@
 ---
-layout: song
+layout: default
 details:
   title: "Ožys ant tilto"
   group: "Pamesta Klumpė"

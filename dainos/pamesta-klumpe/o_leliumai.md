@@ -1,5 +1,5 @@
 ---
-layout: song
+layout: default
 details:
   title: "O leliumai"
   group: "Pamesta Klumpė"

@@ -1,5 +1,5 @@
 ---
-layout: song
+layout: default
 tags: daina
 details:
   title: Mėtaujėla
