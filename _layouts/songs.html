@@ -26,9 +26,9 @@
                 {% assign group_page_link = group_page.url %}
 
                 {% if detail[0] == "title" %}
-                  <p><a href={{site.baseurl}}{{song.url}}>{{ detail[1] }}</a></p>
+                  <p><a href={{ site.baseurl }}{{ song.url }}>{{ detail[1] }}</a></p>
                 {% else %}
-                  <p><a href={{ group_page_link }}>{{ detail[1] }}</a></p>
+                  <p><a href={{ site.baseurl }}{{ group_page_link }}>{{ detail[1] }}</a></p>
                 {% endif %}
               {% endtablerow %}
             {% endfor %}
