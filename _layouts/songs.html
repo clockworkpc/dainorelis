@@ -24,8 +24,8 @@
             <tr>
               <th>Daina</th>
             </tr>
-              {% tablerow song in group_songs: 1 %}
-              <p><a href="{{site.baseurl}}{{song.url}}">{{song.title}}</a></p>
+              {% tablerow song in group_songs cols:1 %}
+                <p><a href="{{site.baseurl}}{{song.url}}">{{song.title}}</a></p>
               {% endtablerow %}
           </table>
 

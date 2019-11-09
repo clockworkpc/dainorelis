@@ -1,9 +1,8 @@
 ---
+title: Mėtaujėla
 layout: default
+group: "Pamesta Klumpė"
 tags: daina
-details:
-  title: Mėtaujėla
-  group: "Pamesta Klumpė"
 ---
 
 Mėtaujėla, mėtaujo  

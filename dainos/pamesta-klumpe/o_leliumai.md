@@ -1,9 +1,8 @@
 ---
-layout: song  
-details:
-  title: "O leliumai"
-  group: "Pamesta Klumpė"
-tags: daina  
+title: "O leliumai"
+layout: default
+group: "Pamesta Klumpė"
+tags: daina
 ---
 
 O leliumai,

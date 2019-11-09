@@ -1,7 +1,8 @@
 ---
 layout: song_collection
-title: Ugniavijas
-group: Ugniavijas
+title: Obelija
+group: Obelija
+album: "Tu žalioji"
 tags: song_collection
 navigation: true
 ---

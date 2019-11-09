@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+        <!-- current page group? -->
+
+        <!-- <p>{{page.group}}</p> -->
+
+        <h2>{{page.title}}</h2>
+
+        {% assign group_songs = site.pages | where: "tags", "daina" | where: "group", page.group %}
+
+        <table>
+          <tr>
+            <th>Daina</th>
+          </tr>
+          {% tablerow song in group_songs cols:1 %}
+          <p><a href="{{site.baseurl}}{{song.url}}">{{song.title}}</a></p>
+          {% endtablerow %}
+        </table>
+
+
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

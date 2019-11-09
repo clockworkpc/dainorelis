@@ -1,4 +1,5 @@
 ---
 layout: songs
-title: Dainos
+title: Visos Dainos
+navigation: true
 ---

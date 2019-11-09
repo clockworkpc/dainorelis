@@ -1,8 +1,9 @@
 ---
-layout: songs
+layout: song_collection
 title: Pamesta Klumpė
 group: Pamesta Klumpė
 tags: song_collection
+navigation: true
 ---
 
 | Žodžiai (Lyrics)                      |
@@ -29,4 +30,4 @@ tags: song_collection
 | [Noriu miego]()                       |
 | [Juzi]()                              |
 | [Šleiva kretva karvė]()               |
-| [Šių nakteli]()                       |
+| [Šiu nakteli]()                       |
