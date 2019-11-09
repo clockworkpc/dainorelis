@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+        {{ content }}
+
+        {% assign my_songs = site.pages | where: "tags", "daina" %}
+
+          <table>
+            <tr>
+              <th>Muzikos grupė</th>
+              <th>Daina</th>
+            </tr>
+
+            {% for song in my_songs %}
+              {% tablerow detail in song.details: 2 %}
+                <p><a href={{song.url}}>{{ detail[1] }}</a></p>
+              {% endtablerow %}
+            {% endfor %}
+
+          </table>
+
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
