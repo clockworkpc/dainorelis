@@ -26,6 +26,7 @@
                 {% assign group_page_link = group_page.url %}
 
                 {% if detail[0] == "title" %}
+            <p>This is the site url: {{site.url}}</p>
                   <p><a href={{site.url}}/{{song.url}}>{{ detail[1] }}</a></p>
                 {% else %}
                   <p><a href={{ group_page_link }}>{{ detail[1] }}</a></p>
