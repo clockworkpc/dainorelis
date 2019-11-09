@@ -1,65 +1,65 @@
 ---
-layout: default
+layout: song  
 details:
   title: "O leliumai"
   group: "Pamesta Klumpė"
-tags: daina
+tags: daina  
 ---
 
 O leliumai,
 
-Gili gili upele, leliumai
-Dar nelabai gili, leliumai
+Gili gili upele, leliumai  
+Dar nelabai gili, leliumai  
 
-Dar ne upele, leliumai
-Žibus akmenėlis
+Dar ne upele, leliumai  
+Žibus akmenėlis  
 
-Ant to akmenėlio
-Du bruolele sėdi
+Ant to akmenėlio  
+Du bruolele sėdi  
 
-Du bruolele sėdi
-Bus mums keliai tuoli
+Du bruolele sėdi  
+Bus mums keliai tuoli  
 
-Eikim mudvi sesules
-Pavarysim brolelius
+Eikim mudvi sesules  
+Pavarysim brolelius  
 
-Pavarysim brolelius
-Ir atimsim kuskelius
+Pavarysim brolelius  
+Ir atimsim kuskelius  
 
-Atstokit sesules
-Ne jus pirktos kuskelius
+Atstokit sesules  
+Ne jus pirktos kuskelius  
 
-Ne jus pirktos kuskelius
-Ne jus dovanotos
+Ne jus pirktos kuskelius  
+Ne jus dovanotos  
 
-Tik muotules pirktos
+Tik muotules pirktos  
 Ir jos dovanotos.
 
 .. O leliumai,
 
-Gili gili upele, leliumai
-Dar nelabai gili, leliumai
+Gili gili upele, leliumai  
+Dar nelabai gili, leliumai  
 
-Dar ne upele, leliumai
-Žibus akmenėlis
+Dar ne upele, leliumai  
+Žibus akmenėlis  
 
-Ant to akmenėlio
-Du sesules sėdi
+Ant to akmenėlio  
+Du sesules sėdi  
 
-Du sesules sėdi
-Bus mums keliai tuoli
+Du sesules sėdi  
+Bus mums keliai tuoli  
 
-Eikim mudu Broliukai
-Pavarysim sesules
+Eikim mudu Broliukai  
+Pavarysim sesules  
 
-Pavarysim sesules
-Ir atimsim ziedelius
+Pavarysim sesules  
+Ir atimsim ziedelius  
 
-Atstokit broliukai
-Ne jus pirkti ziedeliai
+Atstokit broliukai  
+Ne jus pirkti ziedeliai  
 
-Ne jus pirkti ziedeliai
-Ne jus dovanoti
+Ne jus pirkti ziedeliai  
+Ne jus dovanoti  
 
-Tik tevelio pirkti
+Tik tevelio pirkti  
 Ir jo dovanoti.
