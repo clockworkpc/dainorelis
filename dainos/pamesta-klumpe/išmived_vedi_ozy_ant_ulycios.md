@@ -1,8 +1,7 @@
 ---
 layout: default
-details:
-  title: "Ǐšmived vedi ožy ant ulyčios"
-  group: "Pamesta Klumpė"
+group: "Pamesta Klumpė"
+title: "Ǐšmived vedi ožy ant ulyčios"
 tags: daina
 ---
 Išmivedi vedi ožį ant ulyčios  

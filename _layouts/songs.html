@@ -12,29 +12,24 @@
 
         {{ content }}
 
-        {% assign my_songs = site.pages | where: "tags", "daina" %}
+        {% assign song_collections = site.pages | where: "tags", "song_collection" %}
+
+        {% for song_collection in song_collections %}
+          {% assign group = song_collection.group %}
+          <h2>{{group}}</h2>
+
+          {% assign group_songs = site.pages | where: "tags", "daina" | where: "group", group %}
 
           <table>
             <tr>
               <th>Daina</th>
-              <th>Muzikos grupė</th>
             </tr>
-
-            {% for song in my_songs %}
-              {% tablerow detail in song.details: 2 %}
-                {% assign group_page = site.pages | where: "title", "Pamesta Klumpė" | first %}
-                {% assign group_page_link = group_page.url %}
-
-                {% if detail[0] == "title" %}
-                  <p><a href={{ site.baseurl }}{{ song.url }}>{{ detail[1] }}</a></p>
-                {% else %}
-                  <p><a href={{ site.baseurl }}{{ group_page_link }}>{{ detail[1] }}</a></p>
-                {% endif %}
+              {% tablerow song in group_songs: 1 %}
+              <p><a href="{{site.baseurl}}{{song.url}}">{{song.title}}</a></p>
               {% endtablerow %}
-            {% endfor %}
-
           </table>
 
+        {% endfor %}
       </div>
     </main>
 
