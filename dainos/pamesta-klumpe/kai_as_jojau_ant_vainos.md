@@ -1,6 +1,6 @@
 ---
 title: "Kai aš jojau ant vainos"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---

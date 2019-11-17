@@ -1,6 +1,6 @@
 ---
 title: "Šoka lizdu gerveli"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Turėja liepa, liaj taduvėla"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---

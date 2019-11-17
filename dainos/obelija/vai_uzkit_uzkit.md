@@ -1,6 +1,6 @@
 ---
 title: "VAI ŪŽKIT ŪŽKIT"
-layout: default
+layout: song
 group: Obelija
 tags: daina
 ---

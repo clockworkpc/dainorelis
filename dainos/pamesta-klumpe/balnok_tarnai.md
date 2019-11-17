@@ -1,6 +1,6 @@
 ---
 title: "Balnok tarnai"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---

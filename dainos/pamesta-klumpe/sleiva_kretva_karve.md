@@ -1,6 +1,6 @@
 ---
 title: "Šleiva kretva karvė"
-layout: default  
+layout: song  
 group: "Pamesta Klumpė"
 tags: daina  
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Ateik berneli rytoj"
-layout: default  
+layout: song  
 group: "Pamesta Klumpė"
 tags: daina  
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Tai to tai tėla"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---

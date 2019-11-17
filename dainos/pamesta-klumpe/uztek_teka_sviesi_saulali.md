@@ -1,6 +1,6 @@
 ---
 title: "Užteka teka šviesi saulali"
-layout: default  
+layout: song  
 group: "Pamesta Klumpė"
 tags: daina  
 ---

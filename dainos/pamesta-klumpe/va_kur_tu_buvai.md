@@ -1,6 +1,6 @@
 ---
 title: "Va kur tu buvai"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---

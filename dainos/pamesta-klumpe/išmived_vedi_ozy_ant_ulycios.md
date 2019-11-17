@@ -1,6 +1,6 @@
 ---
 title: "Ǐšmived vedi ožy ant ulyčios"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---

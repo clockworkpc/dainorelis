@@ -1,6 +1,6 @@
 ---
 title: "Užtekeja saulala raudona"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---

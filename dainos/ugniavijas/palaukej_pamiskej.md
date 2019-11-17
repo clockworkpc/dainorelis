@@ -1,6 +1,6 @@
 ---
 title: "Palaukėj Pamiškėj"
-layout: default
+layout: song
 group: "Ugniavijas"
 tags: daina
 ---

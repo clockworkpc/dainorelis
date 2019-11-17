@@ -1,6 +1,6 @@
 ---
 title: "Gale lauka ežerėlis"
-layout: default
+layout: song
 group: "Pamesta Klumpė"
 tags: daina
 ---
